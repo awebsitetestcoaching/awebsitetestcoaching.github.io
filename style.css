@@ -1,1 +1,26 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; } body{ background: black; font-family: sans-serif; } * {box-sizing:border-box} .carousel{ margin-top: 50px; } .carousel-inner{ height: 1000px; } .carousel-caption{ color: black; top: 50%; } .yimg{ height: 500px; } .splide__slide img { width: auto; height: 75%; } 
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+    
