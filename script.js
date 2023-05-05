@@ -8,9 +8,9 @@ $(function(){
         $('#btnnext').on('click',function(){
             $('.carousel').carousel('next');
         });
-    },
+})
 $(function () {
     $('.carousel').on('slid.bs.carousel', function () {
     console.log('previous slide transition completed');
     });
-})
+});
