@@ -15,16 +15,54 @@
       <nav class="navbar bg-body-tertiary">
          <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size:3rem"><img src="https://raw.githubusercontent.com/samanth-edu/samanth-edu.github.io/main/Picture1.png" alt="Logo" width="110" height="85" class="d-inline-block align-text-top"> Samanth</a></div>
       </nav>
-      <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
-      <div id="slider">
-      <figure>
-      <img src="austin-fireworks.jpg" alt>
-      <img src="taj-mahal_copy.jpg" alt>
-      <img src="ibiza.jpg" alt>
-      <img src="ankor-wat.jpg" alt>
-      <img src="austin-fireworks.jpg" alt>
-      </figure>
+      <style>
+         body {font: normal 0.9em Arial;margin:0;}
+         a {color:#1155CC;}
+         ul li {padding: 10px 0;}
+         header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
+         header a {
+             font-family: sans-serif;
+             font-size: 24px;
+             line-height: 24px;
+             padding: 8px 13px 7px;
+             color: #4d5256;
+             text-decoration:none;
+             transition: color 0.7s;
+         }
+         header a.active {
+             font-weight:bold;
+             width: 24px;
+             height: 24px;
+             padding: 4px;
+             text-align: center;
+             display:inline-block;
+             border-radius: 50%;
+             background: #4d5256;
+             color: #191919;
+         }
+     </style>
+     <div id="ninja-slider">
+      <div class="slider-inner">
+          <ul>
+              <li>
+                  <a class="ns-img" href="img/a.jpg"></a>
+                  <div class="caption">@colerise</div>
+              </li>
+              <li><a class="ns-img" href="img/b.jpg"></a>
+                  <div class="caption">@colerise</div>
+              </li>
+              <li>
+                  <a href="/"><img class="ns-img" src="img/c.jpg" style="cursor:pointer;" /></a>
+                  <div class="caption">@colerise</div>
+              </li>
+              <li>
+                  <a class="ns-img" href="img/d.jpg"></a>
+                  <div class="caption">@colerise</div>
+              </li>
+          </ul>
+          <div class="fs-icon" title="Expand/Close"></div>
       </div>
+  </div>
       <div class="container">
          <div class="row">
             <img src="pic.jpg" alt="..." class="yimg col-sm">
