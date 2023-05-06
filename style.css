@@ -1,4 +1,4 @@
-*{ margin: 0; padding: 0; box-sizing: border-box; } body{ background: black; font-family: sans-serif; } * {box-sizing:border-box} .carousel{ margin-top: 50px; } .carousel-inner{ height: 1000px; } .carousel-caption{ color: black; top: 50%; } .yimg{ height: 500px; }
+*{ margin: 0; padding: 0; box-sizing: border-box; } body{ background: black; font-family: sans-serif; } * {box-sizing:border-box} .carousel{ margin-top: 50px; } .carousel-inner{ height: 600px; } .carousel-caption{ color: black; top: 50%; } .yimg{ height: 500px; }
 .rslides {
     position: relative;
     list-style: none;
