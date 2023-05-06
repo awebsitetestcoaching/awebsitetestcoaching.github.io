@@ -1,49 +1,79 @@
 <!Doctype html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title></title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/samanth-edu/samanth-edu.github.io/main/Picture1.png">
-      <script src="script.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide-core.min.css" integrity="sha512-cSogJ0h5p3lhb//GYQRKsQAiwRku2tKOw/Rgvba47vg0+iOFrQ94iQbmAvRPF5+qkF8+gT7XBct233jFg1cBaQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide-renderer.min.js" integrity="sha512-uQnfT1Zhid2GfKX+r9760vQySfhYz/ummnK7zdG70GFGtjCCcTV5gB2vaWmG9KWMvhgygnou66/hAZIGxvET4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.js" integrity="sha512-sl3gwaqOnxE9dQ3IY+2A8pDjhOhOFqyfamT7GSaT3Cbz8svrV1aWHOGZ1ZG1GExNLpK5VvRGD5ULSHEQ8fajGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/themes/splide-default.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-   </head>
-   <body>
-      <nav class="navbar bg-body-tertiary">
-         <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size:3rem"><img src="https://raw.githubusercontent.com/samanth-edu/samanth-edu.github.io/main/Picture1.png" alt="Logo" width="110" height="85" class="d-inline-block align-text-top"> Samanth</a></div>
-      </nav>
-      <div id="image-slider" class="splide">
-         <div class="splide__track">
-            <ul class="splide__list">
-               <li class="splide__slide"><img src="https://ik.imagekit.io/e0xm2ftsk/imgs/pic_3.webp?updatedAt=1682585306491"></li>
-               <li class="splide__slide"><img src="photo.jpg"></li>
-               <li class="splide__slide"><img src="pic2.avif"></li>
-               <li class="splide__slide"><img src="https://ik.imagekit.io/e0xm2ftsk/imgs/boy-cute-sweet-adorable-child-boy-white-medical-suit-sunglasses-blue-desk.webp?updatedAt=1682585030916"></li>
-               <li class="splide__slide"><img src="https://ik.imagekit.io/e0xm2ftsk/imgs/cute-young-girl-boy-reading-construction-plan.webp?updatedAt=1682585030248"></li>
-               <li class="splide__slide"><img src="https://ik.imagekit.io/e0xm2ftsk/imgs/two-cute-children-chemistry-lesson-making-experiments.webp?updatedAt=1682585028424"></li>
-            </ul>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row">
-            <img src="pic.jpg" alt="..." class="yimg col-sm">
-            <div id="carouselExampleControls" class="carousel slide col-sm" data-ride="carousel" style="font-size:1.35rem">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="carousel-caption text-black">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/samanth-edu/samanth-edu.github.io/main/Picture1.png">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/themes/splide-default.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size:3rem"><img src="https://raw.githubusercontent.com/samanth-edu/samanth-edu.github.io/main/Picture1.png" alt="Logo" width="110" height="85" class="d-inline-block align-text-top"> Samanth</a></div>
+</nav>
+<style>
+    body {font: normal 0.9em Arial;margin:0;}
+    a {color:#1155CC;}
+    ul li {padding: 10px 0;}
+    header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
+    header a {
+        font-family: sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 8px 13px 7px;
+        color: #4d5256;
+        text-decoration:none;
+        transition: color 0.7s;
+    }
+    header a.active {
+        font-weight:bold;
+        width: 24px;
+        height: 24px;
+        padding: 4px;
+        text-align: center;
+        display:inline-block;
+        border-radius: 50%;
+        background: #4d5256;
+        color: #191919;
+    }
+</style>
+<div id="ninja-slider">
+    <div class="slider-inner">
+        <ul>
+            <li>
+                <a class="ns-img" href="photo.jpg"></a>
+            </li>
+            <li><a class="ns-img" href="imgs/boy-cute-sweet-adorable-child-boy-white-medical-suit-sunglasses-blue-desk.webp"></a>
+            </li>
+            <li>
+                <a href="/"><img class="ns-img" src="imgs/cute-young-girl-boy-reading-construction-plan.webp" style="cursor:pointer;" /></a>
+            </li>
+            <li>
+                <a class="ns-img" href="imgs/pic 3.webp"></a>
+            </li>
+        </ul>
+        <div class="fs-icon" title="Expand/Close"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <img src="pic.jpg" alt="..." class="yimg col-sm">
+        <div id="carouselExampleControls" class="carousel slide col-sm" data-ride="carousel" style="font-size:1.35rem">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption text-black">
                         <p>Dr. Minu Sharma is BSc, MSc, PhD in life sciences from prestigious Panjab University Chandigarh. She has cleared National level National Eligibility Test (NET) for life Sciences with 62 rank in all over India and bagged scholarship for research. She has many international publications in indexed journals.<br>With teaching experience of more than 15 years in renowned professional institutions she is the best guiding light for the young aspirants.<br><b><q>We are kept from our goal not by obstacles but by a clear path to a lesser goal.</q></b>– Bhagavad Gita<br>So have big goals to achieve with right path. Come Join&nbsp;<b>SAMANTH</b>&nbsp;for a better future.</p>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-   </body>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
 </html>
